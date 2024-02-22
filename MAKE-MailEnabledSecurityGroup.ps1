@@ -36,7 +36,6 @@ if ($group) {
 }
 
 # The users to be added to the group
-
 foreach ($userSAMAccountName in $userSAMAccountNames) {
     try {
         # Check if the user exists in the Active Directory
