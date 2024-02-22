@@ -6,12 +6,12 @@
 Import-Module ActiveDirectory
 
 # Define the security group parameters such as name, category, scope, SAM account name, email, OU, and SamAccountName
-$groupName = "MyGroup"
+$groupName = "MyGroup" # Replace this with the Group name you want to use.
 $groupCategory = "Security"
 $groupScope = "Global"
 $groupSAMAccountName = $groupName
-$groupEmail = $groupName+"@domain.com"
-$OU = "OU=YourGroupFolder,DC=YOURDOMAIN,DC=com"
+$groupEmail = $groupName+"@domain.com" # Replace the @domain.com with your @domainname.com
+$OU = "OU=YourGroupFolder,DC=YOURDOMAIN,DC=com" # Configure this to work with your OU structure.
 $userSAMAccountNames = @("user1", "user2", "user3") # Replace this with the actual users' SAM Account Names
 
 # Check if the group exists in the Active Directory
