@@ -1,4 +1,5 @@
-### If you’re utilizing ADconnect in a hybrid setup without a local Exchange server, the following code snippet enables you to create a mail enabled security group. Once this group is synchronized, you can log in to the Microsoft 365 admin center and easily add it as a member to a distribution list.
+### If you’re utilizing ADconnect in a hybrid setup without a local Exchange server, the following code snippet enables you to create a mail enabled security group. 
+### Once this group is synchronized, you can log in to the Microsoft 365 admin center and easily add it as a member to a distribution list.
 
 
 # Import the Active Directory module for AD operations
